@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>DevLinks</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="profile">
+        <img src="assets/avatar.png" alt="avatar" />
+        <p>@maykbrito</p>
+      </section>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <section class="links">
+        <button><a href="#">Inscreva-se no NLW</a></button>
+        <button>Baixe meu e-book</button>
+        <button>Veja meu portfólio</button>
+        <button>Conheça o Explorer</button>
+      </section>
+      <section class="social-media">
+        <div>
+          <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <div>
+          <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+        </div>
+        <div>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>
+        Feito com <ion-icon name="heart"></ion-icon> pela
+        <span>Rocketseat</span>
+      </p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

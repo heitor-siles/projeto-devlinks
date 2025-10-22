@@ -1,0 +1,46 @@
+.light body {
+  background: url(../assets/bg-mobile-light.jpg) no-repeat top center/cover;
+  color: var(--text-color-light-mode);
+}
+
+.light #switch button {
+  background: var(--text-color-dark-mode) var(--switch-bg-btn-img) no-repeat
+    center;
+  right: 0;
+  left: initial;
+
+  &:hover {
+    outline: 8px solid var(--highlight-color-light-mode);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+}
+
+.light #switch span {
+  color: var(--surface-color-light-mode);
+  border: 1px solid var(--stroke-color-light-mode);
+}
+
+.light .links button {
+  border: 1px solid var(--stroke-color-light-mode);
+  background-color: var(--surface-color-light-mode);
+  color: var(--text-color-light-mode);
+}
+
+.light .links button:hover {
+  border: 1px solid var(--text-color-light-mode);
+  background-color: var(--surface-color-light-mode-hover);
+  transition: 0.5s;
+}
+
+.light .social-media div {
+  &:hover {
+    background-color: var(--highlight-color-light-mode);
+  }
+
+  & a {
+    & ion-icon {
+      color: var(--text-color-light-mode);
+    }
+  }
+}
