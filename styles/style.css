@@ -70,6 +70,7 @@ body {
     border-radius: 90px;
     position: absolute;
     z-index: 1;
+    animation: slide-back 0.4s;
 
     &:hover {
       outline: 8px solid var(--highlight-color-dark-mode);
@@ -167,5 +168,23 @@ footer {
   }
   .light {
     --bg-url: url(../assets/bg-desktop-light.jpg);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }

@@ -6,8 +6,7 @@
 .light #switch button {
   background: var(--text-color-dark-mode) var(--switch-bg-btn-img) no-repeat
     center;
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
 
   &:hover {
     outline: 8px solid var(--highlight-color-light-mode);
