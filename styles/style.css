@@ -85,18 +85,20 @@ body {
 }
 
 .links {
+  width: 100%;
+  max-width: 588px;
+  margin: 1.5rem auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 1.5rem 0rem 1.5rem;
   gap: 1rem;
 
   & button {
     border: 1px solid var(--stroke-color-dark-mode);
     cursor: pointer;
     border-radius: 0.5rem;
-    width: 19.5rem;
+    width: clamp(312px, 90%, 540px);
     height: 3.25rem;
     background-color: var(--surface-color-dark-mode);
 
